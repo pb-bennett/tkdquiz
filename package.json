@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.5",
     "@swc/cli": "^0.4.0",
     "@swc/core": "^1.7.23",
     "@vitejs/plugin-react": "^4.3.1",
