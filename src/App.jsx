@@ -2,14 +2,14 @@ import { useState } from 'react';
 
 import Header from './components/Header';
 import ActionButtons from './components/ActionButtons';
-import Quiz from './components/Quiz';
+import Quiz from './components/quiz/Quiz';
 
 import dummyQuiz from './dev-data/quizData';
 
 function App() {
   const [mainState, setMainState] = useState('actionButtons');
   const handleStartQuiz = () => {
-    console.log('StartQuiz');
+    // console.log('StartQuiz');
     setMainState('quizActive');
   };
   const handleExitQuiz = () => {

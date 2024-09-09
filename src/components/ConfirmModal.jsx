@@ -18,7 +18,7 @@ export default function ConfirmModal({
         <div className="flex justify-center gap-2">
           <button
             onClick={onCancel}
-            className="bg-slate-100 hover:shadow-md active:shadow-lg text-black font-bold py-2 px-4 rounded-xl  border-2 border-red-300"
+            className="bg-slate-100 hover:shadow-md active:shadow-lg text-black font-bold py-2 px-4 rounded-xl  border-4 border-red-400"
           >
             <XMarkIcon
               className="h-5 w-5 text-gray-600"
@@ -27,7 +27,7 @@ export default function ConfirmModal({
           </button>
           <button
             onClick={onConfirm}
-            className="bg-slate-100 hover:shadow-md active:shadow-lg text-black font-bold py-2 px-4 rounded-xl  border-2 border-green-300"
+            className="bg-slate-100 hover:shadow-md active:shadow-lg text-black font-bold py-2 px-4 rounded-xl  border-4 border-green-400"
           >
             <CheckIcon
               className="h-5 w-5 text-gray-600"
