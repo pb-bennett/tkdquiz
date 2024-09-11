@@ -55,11 +55,14 @@ export default function Quiz({ quizData, handleExitQuiz }) {
           show={showConfirm}
         />
       )}
-      <QuizInstance questions={currentQuestions} />
-      <ActionButton
+      <QuizInstance
+        questions={currentQuestions}
+        handleExitClick={handleExitClick}
+      />
+      {/* <ActionButton
         topText="Avslutte Quiz"
         handleClick={handleExitClick}
-      />
+      /> */}
     </>
   );
 }
